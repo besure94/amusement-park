@@ -25,6 +25,7 @@ window.onload = function() {
 				document.getElementById("coaster").removeAttribute("class");
 			} else if (age >= 6 && height < 48) {
 				document.getElementById("swings").removeAttribute("class");
+			} else if (age < 6 || height <= 60) {
 			} else {
 				document.getElementById("sorry").removeAttribute("class");
 			}
