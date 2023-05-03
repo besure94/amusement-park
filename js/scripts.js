@@ -9,7 +9,7 @@ function hideResultsAndError() {
 window.onload = function() {
 	hideResultsAndError();
 
-	document.querySelector("form").onsubmit = function(event) {
+	document.querySelector("form#userInfo").onsubmit = function(event) {
 		event.preventDefault();
 		hideResultsAndError();
 		const age = parseInt(document.querySelector("input#age").value);
