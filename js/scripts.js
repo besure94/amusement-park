@@ -23,7 +23,7 @@ window.onload = function() {
 			} else if (age >= 12 || height >= 48) {
 				document.getElementById("swings").removeAttribute("class");
 				document.getElementById("coaster").removeAttribute("class");
-			} else if (age >= 6) {
+			} else if (age >= 6 && height < 48) {
 				document.getElementById("swings").removeAttribute("class");
 			} else {
 				document.getElementById("sorry").removeAttribute("class");
